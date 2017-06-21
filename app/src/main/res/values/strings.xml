@@ -1,0 +1,18 @@
+<resources>
+  <string name="app_name">BaristaTalkDemo</string>
+  <string name="title_activity_view_pager">ViewPagerActivity</string>
+  <string name="action_settings">Settings</string>
+  <string name="section_format">Hi! I\'m page %1$d</string>
+  <string name="title_activity_detail">DetailActivity</string>
+  <string name="long_text">Context data is the preferred method to send application data to collection servers.
+
+Instead of explicitly assigning values to props and eVars, you can use context data variables to send name value pairs that are mapped in the SiteCatalyst. Based on these key value pairs, you can set events, copy values to eVars and props, and execute additional conditional statements. This helps prevent you from making code updates to support different report suite configurations.
+
+There are two ways to send context data with the tracking methods. Any context data set directly on the PersistentContextData object is sent in with each call. You can also pass context data as a parameter to a single tracking call that is sent with that call only.
+
+  Context data is the preferred method to send application data to collection servers.
+
+Instead of explicitly assigning values to props and eVars, you can use context data variables to send name value pairs that are mapped in the SiteCatalyst. Based on these key value pairs, you can set events, copy values to eVars and props, and execute additional conditional statements. This helps prevent you from making code updates to support different report suite configurations.
+
+There are two ways to send context data with the tracking methods. Any context data set directly on the PersistentContextData object is sent in with each call. You can also pass context data as a parameter to a single tracking call that is sent with that call only.</string>
+</resources>

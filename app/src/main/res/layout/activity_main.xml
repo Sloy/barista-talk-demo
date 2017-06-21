@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.schibsted.android.baristatalkdemo.MainActivity"
+    >
+
+  <Button
+      android:text="Go to simple"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      tools:layout_editor_absoluteY="16dp"
+      tools:layout_editor_absoluteX="16dp"
+      android:id="@+id/button_simple"
+      />
+
+  <Button
+      android:text="Go to viewpager"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      tools:layout_editor_absoluteY="16dp"
+      tools:layout_editor_absoluteX="16dp"
+      android:id="@+id/button_viewpager"
+      />
+
+  <Button
+      android:id="@+id/button_detail"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Go to detail"
+      />
+
+  <Button
+      android:id="@+id/button_scroll"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Go to scroll"
+      />
+
+</LinearLayout>
